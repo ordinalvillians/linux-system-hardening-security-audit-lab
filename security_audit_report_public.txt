@@ -1,0 +1,56 @@
+========================================
+ LINUX SECURITY AUDIT
+========================================
+Date: [omitted]
+Host: [omitted]
+OS: Kali GNU/Linux Rolling
+
+1. APPARMOR
+----------------------------------------
+inactive
+disabled
+Y
+
+2. FIREWALL RULES
+----------------------------------------
+Detailed firewall rules omitted from the public report.
+
+3. LISTENING NETWORK SOCKETS
+----------------------------------------
+Detailed socket output omitted from the public report.
+
+4. SUDO GROUP
+----------------------------------------
+Sudo group membership reviewed; detailed usernames omitted.
+
+5. LOCAL USER ACCOUNTS
+----------------------------------------
+Local account inventory reviewed; detailed account names omitted.
+
+6. PASSWORD POLICY DEFAULTS
+----------------------------------------
+PASS_MAX_DAYS	99999
+PASS_MIN_DAYS	0
+PASS_WARN_AGE	7
+
+7. SENSITIVE FILE PERMISSIONS
+----------------------------------------
+644 root:root /etc/passwd
+640 root:shadow /etc/shadow
+644 root:root /etc/group
+640 root:shadow /etc/gshadow
+
+8. HOME DIRECTORY PERMISSIONS
+----------------------------------------
+700 [owner]:[group] [home directory omitted]
+700 [owner]:[group] [home directory omitted]
+700 [owner]:[group] [home directory omitted]
+700 [owner]:[group] [home directory omitted]
+
+9. AUTOMATIC UPDATE CONFIGURATION
+----------------------------------------
+unattended-upgrades: not installed
+
+========================================
+ AUDIT COMPLETE
+========================================
